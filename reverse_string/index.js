@@ -35,10 +35,9 @@
 // }
 
 // Fourth solution
-function reverse(str) {
-  return str.split('').reduce((rev, char) => {
-    return char + rev
-  }, '')
-}
+// function reverse(str) {
+//   return str.split('').reduce((rev, char) => char + rev, '')
+// }
+
 
 module.exports = reverse;
